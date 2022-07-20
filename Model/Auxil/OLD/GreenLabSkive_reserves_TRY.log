@@ -1,0 +1,221 @@
+
+--- Job GreenLabSkive_reserves_TRY.gms Start 05/06/22 11:44:49 36.2.0 r433180e WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\36\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input C:\Users\iokoun\Documents\GitHub\SuperP2G\Model\GreenLabSkive_reserves_TRY.gms
+    PageWidth 80
+    PageSize 0
+    PageContr 3
+    Action CE
+    ScrDir C:\Users\iokoun\Documents\GitHub\SuperP2G\Model\225a\
+    SysDir C:\GAMS\36\
+    WorkDir C:\Users\iokoun\Documents\GitHub\SuperP2G\Model\
+    LogOption 3
+    DFormat 0
+    TFormat 0
+    License "C:\Users\iokoun\Documents\GAMS\Other license\PathPermant.txt"
+    ErrorLog 99
+    IDE 1
+Licensee: Ioannis Kountouris, Single User License        S211222|0002AO-WIN
+          Danmarks Tekniske Universitet (DTU),                      DC16044
+          C:\Users\iokoun\Documents\GAMS\Other license\PathPermant.txt
+          s192489@dtu.dk                                                   
+Processor information: 1 socket(s), 4 core(s), and 8 thread(s) available
+GAMS 36.2.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- GreenLabSkive_reserves_TRY.gms(142) 2 Mb
+--- . loadinc.inc(2) 2 Mb
+--- .. ../data/resultset.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(143) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/area.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(144) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/tech.inc(8772) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(145) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/dir.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(146) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/step.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(147) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/energy.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(148) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/color.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(149) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/time.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(150) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/scenario.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(151) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/dataset.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(152) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/location.inc(21) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(153) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/flowset.inc(22) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(154) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/profile.inc(8771) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(155) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/carriermix.inc(33) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(156) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/techdata.inc(30) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(157) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/demand.inc(8774) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(158) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/price.inc(8775) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(159) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/efficientcyCurve.inc(24) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(160) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/InterconnectorCapacity.inc(8774) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(161) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/FutureTech.inc(22) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(164) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/Service.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(165) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/ReserveCapPrices.inc(8774) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(1015) 3 Mb
+--- . ../model/WriteResults/WriteResults.inc(228) 3 Mb
+--- GreenLabSkive_reserves_TRY.gms(1017) 3 Mb
+--- Starting execution: elapsed 0:00:00.911
+--- GreenLabSkive_reserves_TRY.gms(141560) 4 Mb
+--- Generating MIP model P2Xmodel
+--- GreenLabSkive_reserves_TRY.gms(141561) 5 Mb
+---   2,713 rows  4,153 columns  7,439 non-zeroes
+---   96 discrete-columns
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:01.207
+
+IBM ILOG CPLEX   36.2.0 r433180e Released Sep 03, 2021 WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license.
+--- GMO setup time: 0.00s
+--- Space for names approximately 0.28 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 1.29 Mb (peak 1.32 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.11 Mb (peak 0.54 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_TimeLimit                               1200
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+Generic callback                                 0x50
+Found incumbent of value 0.000000 after 0.00 sec. (0.24 ticks)
+Dual infeasible due to empty column 'Sale(DK1,Ammonia,Hour-1)'.
+Presolve time = 0.00 sec. (1.03 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (1.36 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (1.36 ticks)
+
+--- MIP status (118): integer unbounded.
+--- Cplex Time: 0.06sec (det. 1.37 ticks)
+
+--- Fixing integer variables and solving final LP...
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 2
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_TimeLimit                               1200
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+Dual infeasible due to empty column 'Sale(DK1,Ammonia,Hour-1)'.
+Presolve time = 0.00 sec. (0.88 ticks)
+
+--- Fixed MIP status (4): unbounded or infeasible.
+--- Cplex Time: 0.00sec (det. 0.88 ticks)
+
+*** WARNING: Presolve found the problem infeasible or unbounded
+--- Rerunning with presolve turned off and solving with LPMETHOD=1.
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 2
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_LPMethod                                1
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_TimeLimit                               1200
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =             0.000000
+Iteration:    28    Objective     =             0.000000
+
+--- Fixed MIP status (2): unbounded.
+--- Cplex Time: 0.00sec (det. 2.96 ticks)
+
+*** WARNING: Final solve did not return an optimal solution.
+--- Returning a primal only solution to GAMS (marginals all set to NA).
+
+Problem is unbounded
+MIP Solution:            0.000000    (0 iterations, 0 nodes)
+Final Solve:             0.000000    (76 iterations)
+
+Best possible:               +inf
+Absolute gap:                  na
+Relative gap:                  na
+
+--- Reading solution for model P2Xmodel
+***
+*** Solver did not provide marginals for model P2Xmodel
+***
+--- Executing after solve: elapsed 0:00:01.610
+--- GreenLabSkive_reserves_TRY.gms(141579) 5 Mb
+--- GreenLabSkive_reserves_TRY.gms(141582) 5 Mb
+A subdirectory or file ..\output already exists.
+--- GreenLabSkive_reserves_TRY.gms(141629) 5 Mb
+--- GDX File (execute_unload) C:\Users\iokoun\Documents\GitHub\SuperP2G\model\ResultAll\ResultsAll.gdx
+--- GreenLabSkive_reserves_TRY.gms(141630) 5 Mb
+--- GDX File (execute_unload) C:\Users\iokoun\Documents\GitHub\SuperP2G\output\IK_skive_test.gdx
+--- Putfile errorlog C:\Users\iokoun\Documents\GitHub\SuperP2G\Model\../Error/errorlog.txt
+*** Status: Normal completion
+--- Job GreenLabSkive_reserves_TRY.gms Stop 05/06/22 11:44:51 elapsed 0:00:01.954
+A subdirectory or file ..\output\Excel already exists.

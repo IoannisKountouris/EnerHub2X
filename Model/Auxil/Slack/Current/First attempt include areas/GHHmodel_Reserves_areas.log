@@ -1,0 +1,241 @@
+
+--- Job GHHmodel_Reserves_areas.gms Start 10/26/21 11:19:13 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\32\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input K:\GHH\GHH_model\Model\GHHmodel_Reserves_areas.gms
+    PageWidth 80
+    PageSize 0
+    PageContr 3
+    Action CE
+    ScrDir K:\GHH\GHH_model\Model\225a\
+    SysDir C:\GAMS\32\
+    WorkDir K:\GHH\GHH_model\Model\
+    LogOption 3
+    DFormat 0
+    TFormat 0
+    License "C:\Users\ik\Desktop\Gams Licence\gamslice_22092201.txt"
+    ErrorLog 99
+    IDE 1
+GAMS 32.2.0   Copyright (C) 1987-2020 GAMS Development. All rights reserved
+Licensee: Course License                                 S210810|0002AO-GEN
+          Technical University of Denmark, Management Engineering   DCE1508
+          C:\Users\ik\Desktop\Gams Licence\gamslice_22092201.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+          Course license for use within the course and related course work
+--- Starting compilation
+--- GHHmodel_Reserves_areas.gms(118) 2 Mb
+--- . loadGDX.inc(2) 2 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/resultset.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(119) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/area.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(120) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/tech.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(121) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/dir.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(122) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/step.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(123) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/energy.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(124) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/color.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(125) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/time.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(126) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/scenario.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(127) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/dataset.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(128) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/location.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(129) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/flowset.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(130) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/ecolor.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(131) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/pricingType.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(134) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/profile.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(135) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/techdata.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(136) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/carriermix.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(137) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/demand.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(138) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/price.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(139) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/efficientcyCurve.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(140) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/InterconnectorCapacity.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(143) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/Service.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(144) 3 Mb
+--- . loadGDX.inc(2) 3 Mb
+--- GDXin=K:\GHH\GHH_model\Model\../data/ReserveCapPrices.gdx
+--- . loadGDX.inc(5) 3 Mb
+--- GHHmodel_Reserves_areas.gms(1090) 3 Mb
+--- Starting execution: elapsed 0:00:00.513
+--- GHHmodel_Reserves_areas.gms(1028) 4 Mb
+--- Generating MIP model P2Xmodel
+--- GHHmodel_Reserves_areas.gms(1029) 5 Mb
+---   2,017 rows  4,297 columns  6,407 non-zeroes
+---   96 discrete-columns
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:01.699
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.38 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 1
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_TimeLimit                               1200
+CPXPARAM_Tune_TimeLimit                          240
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+CPXPARAM_WorkDir                                 "K:\GHH\GHH_model\Model\225a\"
+Found incumbent of value 0.000000 after 0.00 sec. (0.17 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 1393 rows and 3595 columns.
+MIP Presolve modified 24 coefficients.
+Aggregator did 470 substitutions.
+Reduced MIP has 154 rows, 232 columns, and 528 nonzeros.
+Reduced MIP has 48 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (3.81 ticks)
+Probing time = 0.01 sec. (0.05 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 154 rows, 232 columns, and 528 nonzeros.
+Reduced MIP has 48 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.37 ticks)
+Probing time = 0.00 sec. (0.05 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Tried aggregator 1 time.
+Aggregator did 48 substitutions.
+Reduced LP has 106 rows, 184 columns, and 432 nonzeros.
+Presolve time = 0.00 sec. (0.16 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =      -4957357.722116
+Iteration:    62   Dual objective     =      -1845095.718497
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =      -1446710.969136
+Root relaxation solution time = 0.00 sec. (0.68 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000 -5057029.7053              --- 
+Found incumbent of value 0.000000 after 0.05 sec. (5.58 ticks)
+*     0     0      integral     0 -1446710.9691 -1446710.9691       76    0.00%
+Elapsed time = 0.05 sec. (5.70 ticks, tree = 0.00 MB, solutions = 1)
+Found incumbent of value -1446710.969136 after 0.05 sec. (5.70 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.06 sec. (5.85 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.06 sec. (5.85 ticks)
+MIP status(101): integer optimal solution
+Cplex Time: 0.06sec (det. 5.86 ticks)
+Fixing integer variables, and solving final LP...
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 2
+CPXPARAM_Threads                                 1
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_TimeLimit                               1200
+CPXPARAM_Tune_TimeLimit                          240
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+CPXPARAM_WorkDir                                 "K:\GHH\GHH_model\Model\225a\"
+Tried aggregator 1 time.
+LP Presolve eliminated 1674 rows and 3853 columns.
+Aggregator did 313 substitutions.
+Reduced LP has 30 rows, 131 columns, and 186 nonzeros.
+Presolve time = 0.00 sec. (2.16 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =      -4957357.722116
+Fixed MIP status(1): optimal
+Cplex Time: 0.02sec (det. 3.09 ticks)
+
+Proven optimal solution.
+
+MIP Solution:     -1446710.969136    (76 iterations, 0 nodes)
+Final Solve:      -1446710.969136    (38 iterations)
+
+Best possible:    -1446710.969136
+Absolute gap:            0.000000
+Relative gap:            0.000000
+
+--- Reading solution for model P2Xmodel
+--- Executing after solve: elapsed 0:00:02.640
+--- GHHmodel_Reserves_areas.gms(1176) 5 Mb
+A subdirectory or file ..\output already exists.
+--- GHHmodel_Reserves_areas.gms(1180) 5 Mb
+--- GDX File K:\GHH\GHH_model\Model\ResultsAll.gdx
+--- GHHmodel_Reserves_areas.gms(1181) 5 Mb
+--- GDX File K:\GHH\GHH_model\output\IK_areas_24hv2.gdx
+--- GHHmodel_Reserves_areas.gms(1188) 5 Mb
+--- GDX File K:\GHH\GHH_model\output\IK_areas_24hv2_all.gdx
+--- GHHmodel_Reserves_areas.gms(1199) 5 Mb
+--- Putfile errorlog K:\GHH\GHH_model\Model\errorlog.txt
+*** Status: Normal completion
+--- Job GHHmodel_Reserves_areas.gms Stop 10/26/21 11:19:16 elapsed 0:00:02.820

@@ -1,0 +1,144 @@
+
+--- Job EnerHub2X.gms Start 07/20/22 14:20:39 36.2.0 r433180e WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\36\gmsprmNT.txt
+    C:\Users\iokoun\Documents\GAMS\gamsconfig.yaml
+--- GAMS Parameters defined
+    Input "C:\Users\iokoun\Desktop\IK PHD data\Papers\EnerHub2x paper\Local SuperP2G\Model\EnerHub2X.gms"
+    PageWidth 80
+    PageSize 0
+    PageContr 3
+    Action CE
+    ScrDir "C:\Users\iokoun\Desktop\IK PHD data\Papers\EnerHub2x paper\Local SuperP2G\Model\225a\"
+    SysDir C:\GAMS\36\
+    WorkDir "C:\Users\iokoun\Desktop\IK PHD data\Papers\EnerHub2x paper\Local SuperP2G\Model\"
+    LogOption 3
+    DFormat 0
+    TFormat 0
+    ErrorLog 99
+    IDE 1
+Licensee: Course License                                 G220104|0002AO-GEN
+          Technical University of Denmark, Management Engineering   DCE1794
+          C:\Users\iokoun\Documents\GAMS\gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+          Course license for use within the course and related course work
+Processor information: 1 socket(s), 4 core(s), and 8 thread(s) available
+GAMS 36.2.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- EnerHub2X.gms(89) 2 Mb
+--- . ../model/Core/Sets.inc(44) 2 Mb
+--- EnerHub2X.gms(95) 2 Mb
+--- . ../model/Core/Parameters.inc(49) 2 Mb
+--- EnerHub2X.gms(99) 2 Mb
+--- . loadinc.inc(2) 2 Mb
+--- .. ../data/resultset.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- EnerHub2X.gms(100) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/area.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- EnerHub2X.gms(101) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/tech.inc(8772) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- EnerHub2X.gms(102) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/dir.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- EnerHub2X.gms(103) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/step.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- EnerHub2X.gms(104) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/energy.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- EnerHub2X.gms(105) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/color.inc(8770) 3 Mb
+--- . loadinc.inc(3) 3 Mb
+--- EnerHub2X.gms(106) 3 Mb
+--- . loadinc.inc(2) 3 Mb
+--- .. ../data/time.inc(8770) 4 Mb
+--- . loadinc.inc(3) 4 Mb
+--- EnerHub2X.gms(107) 4 Mb
+--- . loadinc.inc(2) 4 Mb
+--- .. ../data/scenario.inc(8770) 4 Mb
+--- . loadinc.inc(3) 4 Mb
+--- EnerHub2X.gms(108) 4 Mb
+--- . loadinc.inc(2) 4 Mb
+--- .. ../data/dataset.inc(8770) 4 Mb
+--- . loadinc.inc(3) 4 Mb
+--- EnerHub2X.gms(109) 4 Mb
+--- . loadinc.inc(2) 4 Mb
+--- .. ../data/location.inc(21) 4 Mb
+--- . loadinc.inc(3) 4 Mb
+--- EnerHub2X.gms(110) 4 Mb
+--- . loadinc.inc(2) 4 Mb
+--- .. ../data/flowset.inc(22) 4 Mb
+--- . loadinc.inc(3) 4 Mb
+--- EnerHub2X.gms(111) 4 Mb
+--- . loadinc.inc(2) 4 Mb
+--- .. ../data/profile.inc(8773) 6 Mb
+--- . loadinc.inc(3) 6 Mb
+--- EnerHub2X.gms(112) 6 Mb
+--- . loadinc.inc(2) 6 Mb
+--- .. ../data/carriermix.inc(36) 6 Mb
+--- . loadinc.inc(3) 6 Mb
+--- EnerHub2X.gms(113) 6 Mb
+--- . loadinc.inc(2) 6 Mb
+--- .. ../data/techdata.inc(30) 6 Mb
+--- . loadinc.inc(3) 6 Mb
+--- EnerHub2X.gms(114) 6 Mb
+--- . loadinc.inc(2) 6 Mb
+--- .. ../data/demand.inc(8775) 7 Mb
+--- . loadinc.inc(3) 7 Mb
+--- EnerHub2X.gms(115) 7 Mb
+--- . loadinc.inc(2) 7 Mb
+--- .. ../data/price.inc(8781) 12 Mb
+--- . loadinc.inc(3) 12 Mb
+--- EnerHub2X.gms(116) 12 Mb
+--- . loadinc.inc(2) 12 Mb
+--- .. ../data/efficientcyCurve.inc(24) 12 Mb
+--- . loadinc.inc(3) 12 Mb
+--- EnerHub2X.gms(117) 12 Mb
+--- . loadinc.inc(2) 12 Mb
+--- .. ../data/InterconnectorCapacity.inc(8774) 12 Mb
+--- . loadinc.inc(3) 12 Mb
+--- EnerHub2X.gms(118) 12 Mb
+--- . loadinc.inc(2) 12 Mb
+--- .. ../data/FutureTech.inc(22) 12 Mb
+--- . loadinc.inc(3) 12 Mb
+--- EnerHub2X.gms(121) 12 Mb
+--- . loadinc.inc(2) 12 Mb
+--- .. ../data/Service.inc(8770) 12 Mb
+--- . loadinc.inc(3) 12 Mb
+--- EnerHub2X.gms(122) 12 Mb
+--- . loadinc.inc(2) 12 Mb
+--- .. ../data/ReserveCapPrices.inc(8774) 13 Mb
+--- . loadinc.inc(3) 13 Mb
+--- EnerHub2X.gms(309) 13 Mb
+--- . ../model/Error Checking/Error Checking.inc(99) 13 Mb
+--- EnerHub2X.gms(316) 13 Mb
+--- . ../model/Core/variables.inc(73) 13 Mb
+--- EnerHub2X.gms(323) 13 Mb
+--- . ../model/Core/Equations.inc(541) 13 Mb
+--- EnerHub2X.gms(330) 13 Mb
+--- . ../model/Core/ModelDefinition.inc(49) 13 Mb
+--- EnerHub2X.gms(358) 13 Mb
+--- . ../model/PostSolve/WriteResults.inc(282) 13 Mb
+--- EnerHub2X.gms(378) 13 Mb
+--- Starting execution: elapsed 0:00:01.318
+--- EnerHub2X.gms(141682) 24 Mb
+--- Generating MIP model P2Xmodel
+Sending CtrlC signal
+--- EnerHub2X.gms(141252) 103 Mb
+*** Error at line 141216: Execution halted: Triggered by pending CtrlC event
+Sending CtrlC signal
+--- EnerHub2X.gms(141757) 103 Mb 1 Error
+*** SOLVE aborted
+--- Putfile errorlog C:\Users\iokoun\Desktop\IK PHD data\Papers\EnerHub2x paper\Local SuperP2G\Model\../Error/errorlog.txt
+--- EnerHub2X.gms(141757) 103 Mb 1 Error
+*** Status: Execution error(s)
+--- Job EnerHub2X.gms Stop 07/20/22 14:20:45 elapsed 0:00:06.148
+Exit code = 3
