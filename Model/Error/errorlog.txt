@@ -1,0 +1,7 @@
+Input data errors:
+
+Last point on efficientcy curve must match capacity: Electrolysis
+Last point on efficientcy curve must match total efficientcy: Electrolysis
+Point on efficientcy curve must be increasing: Electrolysis,Export
+
+3 input errors!
