@@ -181,37 +181,8 @@ techdata('Electrolysis','Capacity')=techdata('Electrolysis','Capacity')*100/12;
 *--------------------------------------------------------------------------------------------------------------------
 *test parameters
 
-
-*profile('WindTurbine','Hour-15')=0;
-*profile('WindTurbine','Hour-16')=0;
-*profile('WindTurbine','Hour-17')=0;
-*profile('SolarPV','Hour-15')=0;
-*profile('SolarPV','Hour-16')=0;
-*profile('SolarPV','Hour-17')=0;
-*price('DK1','Electricity','import','Hour-15') = 1500;
-*price('DK1','Electricity','import','Hour-16') = 1500;
-*price('DK1','Electricity','import','Hour-17') = 1500;
-
-
 techdata('HydrogenStorage','InitialVolume')=0;
 techdata('ElectricStorage','InitialVolume')=0;
-
-*techdata('Electrolysis','StartupCost')=0.1;
-*ReserveCapPrices('Up',time)=3000;
-*techdata(tech,'CapacityDown')=0;
-*techdata(tech,'CapacityUP')=0;
-*price('DK1','HydrogenCom','export',time) = 15000;
-*price('DK1','HydrogenCom','export','Hour-11') = 4000;
-*price('DK1','HydrogenCom','export','Hour-12') = 4000;
-*techdata('Electrolysis','CapacityDown')=0;
-*techdata('Electrolysis','CapacityUP')=0.1;
-*techdata('Electrolysis','CapacityDown')=0.1;
-*techdata('Electrolysis','CapacityUp')=0.1;
-*reservecapprices('Down','Hour-16') = 600;
-*reservecapprices('Down','Hour-16') = 10700;
-*reservecapprices('Down','Hour-17') = 10700;
-*reservecapprices('Down','Hour-18') = 6700;
-*reservecapprices('Down','Hour-3') = 6700;
 
 *--------------------------------------------------------------------------------------------------------------------
 * Assigning sets and parameter manipulation (important for the user to understand the following lines of code)
